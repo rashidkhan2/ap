@@ -1,0 +1,48 @@
+body{
+  background:#333;
+  color:#fff;
+}
+.navbar{
+ border-bottom:solid 3px #008ed6;
+ background:#292b2c;
+ opacity:0.7;
+}
+.display-6{
+ margin-top:5px;
+ padding-top:50px;
+}
+.card{
+ background-color:#007bff;
+ opacity:0.6;
+}
+
+#homesection{
+ background-image:url('explore.jpeg');
+ background-size:cover;
+ background-attachment:fixed;
+ background-position: center;
+ margin-top:60px;
+}
+ .dark-overly{
+background-color: rgba(41, 37, 37, 0.842);
+}
+.fa{
+ background:#fff;
+ font-size:30px;
+ color:#007bff;
+ padding:10px;
+ border-radius: 5px;
+}
+#design{
+ margin-left:5px;
+ text-decoration:none;
+}
+#rightNAvbar{
+ float: right;
+}
+@media(max-width:767px)
+{
+  #homesection h1{
+    font-size:35px;
+  }
+}
